@@ -1,7 +1,7 @@
 import styles from "../styles/Home.module.css";
 import Elevator1 from "./Elevator1";
-import Elevator2 from "./Elevator2";
-import Building from "./Building";
+// import Elevator2 from "./Elevator2";
+// import Building from "./Building";
 
 function Home() {
   return (
@@ -12,9 +12,9 @@ function Home() {
         </h1>
 
         <Elevator1 />
-        <Elevator2 />
+        {/* <Elevator2 />
 
-        <Building />
+        <Building /> */}
       </main>
     </div>
   );
